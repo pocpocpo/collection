@@ -1,0 +1,35 @@
+_id: req_4e29628a12f64607b028400ac2e7d017
+type: Request
+parentId: fld_0dc6eba30df848719d6fcce090608ed9
+modified: 1660694806679
+created: 1658709920605
+url: "{{url}}/sessions"
+name: Authentication token 2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"role": "Patient",
+    	"email": "{% response 'body', 'req_890fa83bbb28432f93990f033be41ae4', 'b64::JC5lbWFpbA==::46b', 'no-history', 60 %}",
+    	"password": "!@#$1234QWERqwer"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_34906d5984e449f39d2789aa954d3a85
+  - id: pair_1464af84d6a647a89476903e6dc071a0
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1658708422614
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

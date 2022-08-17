@@ -1,0 +1,29 @@
+_id: req_a7f2ef6cc11b4dca8561880b7f2f18cc
+type: Request
+parentId: fld_7c86697af452466d9345845c2e434e32
+modified: 1660694382244
+created: 1659563724241
+url: "{{url}}/exams/ba34af6b-43ff-4bc2-97e1-11b02e0f219b "
+name: Get all exams by appointment
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96c637c7816041feb2b59b183e0dcb7a
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4e29628a12f64607b028400ac2e7d017',
+    'b64::JC50b2tlbg==::46b', 'no-history', 60 %}"
+metaSortKey: -1658708422114
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

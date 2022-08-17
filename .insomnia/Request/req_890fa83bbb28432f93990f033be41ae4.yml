@@ -1,0 +1,42 @@
+_id: req_890fa83bbb28432f93990f033be41ae4
+type: Request
+parentId: fld_5f69d9f3cf4b4d98ba224d04e556fcc7
+modified: 1660694690424
+created: 1659362473288
+url: "{{url}}/{{resource}}"
+name: Create new patient
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"role": "Patient",
+    	"name": "First Patient",
+    	"email": "fp@pacient.com",
+    	"CPF": "11111111111",
+    	"RG": "1111111111",
+    	"password": "!@#$1234QWERqwer",
+    	"phone": "11000000001",
+    	"gender": "m",
+    	"birthday": "01/01/1990",
+    	"address": "Rua dos Testes Verbosos"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_34906d5984e449f39d2789aa954d3a85
+  - id: pair_1464af84d6a647a89476903e6dc071a0
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1658994535250.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

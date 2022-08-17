@@ -1,0 +1,33 @@
+_id: req_80960941a85944c4bbf5266a4471e25d
+type: Request
+parentId: fld_0c92b22829a34e5ebcab129f0ca5ed70
+modified: 1660694507110
+created: 1660692748990
+url: http://localhost:3333/appointments
+name: Create new Appointment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {
+    	"doctor_id": "{% response 'body', 'req_0fd3a18546f14f81a18038076dff4dcb', 'b64::JC5pZA==::46b', 'no-history', 60 %}",
+    	"date": "2025-12-10T13:49:51.141Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d9a600ecc5df4f369245ca0e83fc3ab7
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4e29628a12f64607b028400ac2e7d017',
+    'b64::JC50b2tlbg==::46b', 'no-history', 60 %}"
+metaSortKey: -1660692748990
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

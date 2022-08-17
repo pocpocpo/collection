@@ -1,0 +1,42 @@
+_id: req_0fd3a18546f14f81a18038076dff4dcb
+type: Request
+parentId: fld_5f69d9f3cf4b4d98ba224d04e556fcc7
+modified: 1660692942119
+created: 1659362541320
+url: "{{url}}/{{resource}}"
+name: Create new doctor
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {
+    	"role": "Doctor",
+    	"name": "Second Doctor",
+    	"email": "sd@doctor.com",
+    	"CRM": "22222222xx",
+    	"password": "!@#$1234QWERqwer",
+    	"phone": "11000000005",
+    	"gender": "f",
+    	"birthday": "01/01/1990",
+    	"address": "Rua dos Testes Verbosos",
+    	"specialty_id": "{% response 'body', 'req_5e20b5090460496f880dfd7b77d9e72d', 'b64::JC5pZA==::46b', 'always', 60 %}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_34906d5984e449f39d2789aa954d3a85
+  - id: pair_1464af84d6a647a89476903e6dc071a0
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1658726304653.7695
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

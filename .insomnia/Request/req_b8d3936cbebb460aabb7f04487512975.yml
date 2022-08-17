@@ -1,0 +1,23 @@
+_id: req_b8d3936cbebb460aabb7f04487512975
+type: Request
+parentId: fld_3edcf88ce15648528960a67a0ad66049
+modified: 1660691469589
+created: 1658782966814
+url: "{{url}}/{{resource}}"
+name: List all specialties
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiUGF0aWVudCIsImlhdCI6MTY1ODcxMDA1NiwiZXhwIjoxNjU4Nzk2NDU2LCJzdWIiOiJkNTkwZTYwNS1jNTYwLTQzYjQtODM3YS1lMjczYzk4YzI4YjMifQ.FJsMJKSTSYZg3LBI4psrJY7FfKSZacG2yaZZD0Jl-6k
+metaSortKey: -1658708422514
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

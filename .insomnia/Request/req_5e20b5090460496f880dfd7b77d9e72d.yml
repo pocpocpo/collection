@@ -1,0 +1,31 @@
+_id: req_5e20b5090460496f880dfd7b77d9e72d
+type: Request
+parentId: fld_3edcf88ce15648528960a67a0ad66049
+modified: 1660691743799
+created: 1658783001616
+url: "{{url}}/{{resource}}"
+name: Create specialty "Neurologista"
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Neurologista"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_483fdf86d6384ed7b317904b2e7dcc93
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiUGF0aWVudCIsImlhdCI6MTY1ODcxMDA1NiwiZXhwIjoxNjU4Nzk2NDU2LCJzdWIiOiJkNTkwZTYwNS1jNTYwLTQzYjQtODM3YS1lMjczYzk4YzI4YjMifQ.FJsMJKSTSYZg3LBI4psrJY7FfKSZacG2yaZZD0Jl-6k
+metaSortKey: -1658708422564
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

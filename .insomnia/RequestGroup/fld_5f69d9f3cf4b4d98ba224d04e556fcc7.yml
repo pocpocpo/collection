@@ -1,0 +1,13 @@
+_id: fld_5f69d9f3cf4b4d98ba224d04e556fcc7
+type: RequestGroup
+parentId: wrk_200d86020f9e48b5a4bc0a6f993c77fc
+modified: 1660692151632
+created: 1659362394347
+name: Users
+description: ""
+environment:
+  resource: users
+environmentPropertyOrder:
+  "&":
+    - resource
+metaSortKey: -1659362394347

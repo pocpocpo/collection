@@ -1,0 +1,33 @@
+_id: req_cd9df44e6d21477e8462e254bc0b1f6d
+type: Request
+parentId: fld_7c86697af452466d9345845c2e434e32
+modified: 1660694483775
+created: 1658795331472
+url: "{{url}}/exams"
+name: Create exam
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"appointment_id": "{% response 'body', 'req_80960941a85944c4bbf5266a4471e25d', 'b64::JC5pZA==::46b', 'no-history', 60 %}",
+    	"result": "."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_483fdf86d6384ed7b317904b2e7dcc93
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4e29628a12f64607b028400ac2e7d017',
+    'b64::JC50b2tlbg==::46b', 'no-history', 60 %}"
+metaSortKey: -1658708422164
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

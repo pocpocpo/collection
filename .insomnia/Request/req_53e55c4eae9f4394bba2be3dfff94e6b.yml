@@ -1,0 +1,32 @@
+_id: req_53e55c4eae9f4394bba2be3dfff94e6b
+type: Request
+parentId: wrk_200d86020f9e48b5a4bc0a6f993c77fc
+modified: 1660691148331
+created: 1659375162286
+url: http://localhost:3333/clinics
+name: Create Clinic
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "q23qer324req3er5q35r",
+    	"address": "lkasjfçlkjasdlçkfjasdfjkl"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_483fdf86d6384ed7b317904b2e7dcc93
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiUGF0aWVudCIsImlhdCI6MTY1ODcxMDA1NiwiZXhwIjoxNjU4Nzk2NDU2LCJzdWIiOiJkNTkwZTYwNS1jNTYwLTQzYjQtODM3YS1lMjczYzk4YzI4YjMifQ.FJsMJKSTSYZg3LBI4psrJY7FfKSZacG2yaZZD0Jl-6k
+metaSortKey: -1658708422264
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

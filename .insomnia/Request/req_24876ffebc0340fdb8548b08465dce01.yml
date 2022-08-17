@@ -1,0 +1,31 @@
+_id: req_24876ffebc0340fdb8548b08465dce01
+type: Request
+parentId: fld_3edcf88ce15648528960a67a0ad66049
+modified: 1660691744403
+created: 1660691354437
+url: "{{url}}/{{resource}}"
+name: Create specialty "Cardiologista"
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Cardiologista"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_483fdf86d6384ed7b317904b2e7dcc93
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiUGF0aWVudCIsImlhdCI6MTY1ODcxMDA1NiwiZXhwIjoxNjU4Nzk2NDU2LCJzdWIiOiJkNTkwZTYwNS1jNTYwLTQzYjQtODM3YS1lMjczYzk4YzI4YjMifQ.FJsMJKSTSYZg3LBI4psrJY7FfKSZacG2yaZZD0Jl-6k
+metaSortKey: -1658708422539
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
